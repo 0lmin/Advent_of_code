@@ -8,3 +8,8 @@ with open(filename) as f:
 print(max([sum(list(map(float, lines_list[([-1] + list(map(lambda x: x[0], filter(lambda x: x[1].startswith('\n'), enumerate(lines_list)))))[i] + 1:
                                           ([-1] + list(map(lambda x: x[0], filter(lambda x: x[1].startswith('\n'), enumerate(lines_list)))))[i+1]]))) 
                                                 for i in range(len([-1] + list(map(lambda x: x[0], filter(lambda x: x[1].startswith('\n'), enumerate(lines_list))))) - 1)]))
+
+print(sum(sorted([sum(list(map(float, lines_list[([-1] + list(map(lambda x: x[0], filter(lambda x: x[1].startswith('\n'), enumerate(lines_list)))))[i] + 1:
+                                          ([-1] + list(map(lambda x: x[0], filter(lambda x: x[1].startswith('\n'), enumerate(lines_list)))))[i+1]]))) 
+                                                for i in range(len([-1] + list(map(lambda x: x[0], filter(lambda x: x[1].startswith('\n'), enumerate(lines_list))))) - 1)])[-3:]))
+

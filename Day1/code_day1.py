@@ -17,8 +17,10 @@ with open(filename) as f:
         else:
             elves_carry_list[-1] += float(line)
            
-    # Get max carried 
-    result: float = max(elves_carry_list)
+    # Get results
+    result_p1: float = max(elves_carry_list)
+    result_p2: float = sum(sorted(elves_carry_list)[-3:])
     
-    # Print result
-    print(result)
+    # Print results
+    print(result_p1)
+    print(result_p2)
