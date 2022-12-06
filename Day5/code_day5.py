@@ -45,8 +45,8 @@ with open(filename) as f:
     lines_list: 'list(str)' = [line.rstrip() for line in f]
     
     # Initialize results sum
-    result_p1: str = 0
-    result_p2: str = 0
+    result_p1: str
+    result_p2: str
     
     # Get separation between position and move
     separation_index: int = lines_list[:-1].index('')
