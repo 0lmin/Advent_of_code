@@ -43,6 +43,6 @@ with open(filename) as f:
                     result_p2 += ord(char_first_sack.lower()) - bound_asci_val + 27
                 break 
         
-# Pint results
-print(result_p1)
-print(result_p2)
+# Print results
+print(f"{result_p1 = }")
+print(f"{result_p2 = }")

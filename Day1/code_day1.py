@@ -21,6 +21,6 @@ with open(filename) as f:
     result_p1: float = max(elves_carry_list)
     result_p2: float = sum(sorted(elves_carry_list)[-3:])
     
-    # Print results
-    print(result_p1)
-    print(result_p2)
+# Print results
+print(f"{result_p1 = }")
+print(f"{result_p2 = }")

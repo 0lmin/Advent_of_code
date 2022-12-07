@@ -84,6 +84,6 @@ with open(filename) as f:
     result_p1 = ''.join([stack[-1] for stack in position_p1])
     result_p2 = ''.join([stack[-1] for stack in position_p2])
 
-# Pint results
-print(result_p1)
-print(result_p2)
+# Print results
+print(f"{result_p1 = }")
+print(f"{result_p2 = }")

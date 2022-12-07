@@ -81,6 +81,6 @@ with open(filename) as f:
         result_p1 += areYouWinningSon_p1(line[0], line[2])
         result_p2 += areYouWinningSon_p2(line[0], line[2])
         
-# Pint results
-print(result_p1)
-print(result_p2)
+# Print results
+print(f"{result_p1 = }")
+print(f"{result_p2 = }")

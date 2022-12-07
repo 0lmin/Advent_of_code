@@ -32,6 +32,6 @@ with open(filename) as f:
                 break
 
 
-# Pint results
-print(result_p1)
-print(result_p2)
+# Print results
+print(f"{result_p1 = }")
+print(f"{result_p2 = }")

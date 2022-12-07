@@ -26,6 +26,6 @@ with open(filename) as f:
         if not((elf1[1] < elf2[0]) or (elf2[1] < elf1[0])):
             result_p2 += 1
 
-# Pint results
-print(result_p1)
-print(result_p2)
+# Print results
+print(f"{result_p1 = }")
+print(f"{result_p2 = }")
