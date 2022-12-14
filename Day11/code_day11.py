@@ -18,7 +18,7 @@ class Monkey:
 
         @Input:
             monkey_definition: list(str) = Full description of the monkey that
-                                           will be parse to create its behavior
+                                           will be parsed to create its behavior
 
         @Output:
             None
